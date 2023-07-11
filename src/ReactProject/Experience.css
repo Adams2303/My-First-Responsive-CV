@@ -1,0 +1,147 @@
+.title {
+    margin-bottom: 35px;
+
+}
+.title h3{
+    color: fff;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.resume{
+    padding-top: 15px;
+}
+
+.seperated{
+    background-position: 50%;
+    background-repeat: repeat-x;
+    background-size: auto 6px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    filter: invert(1);
+}
+
+.resume-row{
+    background: #0B0B13;
+    border-radius: 15px;
+    padding: 35px;
+    margin: 35px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-row .resume-minibox1{
+    min-height: 100%;
+}
+
+.resume-minibox1 h6{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.resume-minibox1 label{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.resume-minibox1 p{
+    line-height: normal;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: hsla(0, 0%, 100%, .8);
+}
+
+.resume-minibox1 .work-type{
+    background: blue;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.resume-minibox2 h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.resume-minibox2 p{
+    margin-bottom: 0;
+    color: hsla(0, 0%, 100%, .8);
+    margin-top: 0;
+}
+
+.education{
+    background: #0B0B13;
+    border-radius: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 35px;
+}
+
+.education span{
+    color: hsla(0, 0%, 100%, .8);
+    padding-left: 0 ;
+}
+
+.education h6{
+    color: #fff;
+    margin: 5px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.skill{
+    padding-left: 80px;
+    position: relative;
+}
+
+.skill h6{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+
+.count-inner{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    top: 8px;
+}
+
+.count-inner span{
+    color: hsla(0, 0%, 100%, .8);
+}
+
+.skill-bar{
+    background: hsla(0, 0%, 100%, .2);
+    position: relative;
+}
+
+.skill-bar div{
+    background-color: greenyellow;
+    height: 10px;
+    position: relative;
+    transition: all .55s ease;
+    width: 80px;
+}
+
+.skill:not(:first-child){
+    margin-top: 45px;
+}
